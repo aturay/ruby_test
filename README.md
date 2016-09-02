@@ -33,3 +33,8 @@ __class Item__ - создает товар
 
 ###### Для обновление качество всех товаров вызываем метод __update_quality()__
     gilded_rose.update_quality()
+
+###### Проверка Unit и RSpec тестов
+-----------------------------------
+    **~/ruby_test/tests/models$** __ruby__ gilded_rose_tests.rb
+    **~/ruby_test/rspac$** __rspec__ gilded_rose_spec.rb
