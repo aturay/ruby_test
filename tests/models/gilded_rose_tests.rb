@@ -1,12 +1,13 @@
-require File.join(File.dirname(__FILE__), 'gilded_rose')
+require File.join(File.dirname(__FILE__), '../../lib/gilded_rose')
 require 'test/unit'
 
-# Тест на правильность работы класса GildedRose
+# Unit тест на правильность работы класса GildedRose
 class TestUntitled < Test::Unit::TestCase
 
   def test_foo
     items = [Item.new("foo", 0, 0)]
     GildedRose.new(items).update_quality()
+
     assert_equal items[0].name, "foo"
     assert_equal items[0].quality, 0
   end
