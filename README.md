@@ -36,5 +36,5 @@ __class Item__ - создает товар
 
 ###### Проверка Unit и RSpec тестов
 -----------------------------------
-    **~/ruby_test/tests/models$** __ruby__ gilded_rose_tests.rb
-    **~/ruby_test/rspac$** __rspec__ gilded_rose_spec.rb
+    ~/ruby_test/tests/models$ ruby gilded_rose_tests.rb
+    ~/ruby_test/rspac$ rspec gilded_rose_spec.rb
